@@ -3,12 +3,16 @@ body {
   background-color: #f5f7fa;
 }
 .main-section {
-  display: inline-flex;
-  flex-direction: row-reverse;
+  display: inline-block;
   background-color: #fff;
   margin: 10px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 } 
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
@@ -104,6 +108,7 @@ img {
   width: 370px;
 }
 .sidebar-section {
+  display: inline-block;
   background-color: #1e2939;
   width: 370px;
   padding: 40px 0;
